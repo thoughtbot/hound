@@ -1,0 +1,13 @@
+rubocop:
+  enabled: true
+  config_file: .rubocop.yml
+
+eslint:
+  enabled: true
+  config_file: .eslintrc.json
+
+scss-lint:
+  enabled: true
+  config_file: .scss-lint.yml
+
+# Add more linters and configurations as needed
