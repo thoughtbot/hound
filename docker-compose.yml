@@ -1,0 +1,12 @@
+version: '3'
+services:
+  hound:
+    image: houndci/hound
+    ports:
+      - "6080:6080"
+    volumes:
+      - "./config:/config"
+      - "./data:/data"
+    environment:
+      - "GITHUB_CLIENT_ID=2f2c099bedfb097fee79"
+      - "GITHUB_CLIENT_SECRET=c0268aef9f9ca99fe088ecf8a2e70199cb998258"

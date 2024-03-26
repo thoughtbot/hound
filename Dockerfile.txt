@@ -1,0 +1,29 @@
+# Use a base image with Ruby version 3.0 or higher (adjust the version as needed)
+FROM ruby:3.0
+
+# Set the working directory inside the container
+WORKDIR /app
+
+# Copy the Gemfile and Gemfile.lock into the container
+COPY Gemfile Gemfile.lock ./
+
+# Install Bundler 2.4.22 explicitly
+RUN gem install bundler -v 2.4.22
+
+# Install Ruby dependencies using Bundler
+RUN bundle install
+
+# Copy the rest of your application files
+COPY . .
+
+# Install npm dependencies and build (if needed)
+# Replace these commands with your specific npm commands if applicable
+# Example commands for npm-based frontend project:
+RUN curl -fsSL https://deb.nodesource.com/setup_16.x | bash -
+RUN apt-get install -y nodejs
+RUN npm install --global yarn
+RUN yarn install
+RUN yarn build
+
+# Specify the command to run your application (if applicable)
+CMD ["bundle", "exec", "rails", "server"]
