@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby "3.1.4"
+ruby "3.1.2"
 
 gem "active_link_to"
 gem "active_model_serializers", "0.10.10"
