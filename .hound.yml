@@ -1,7 +1,45 @@
-linters:
-  rubocop:
-    enabled: true
-    config_file: .rubocop.yml
-  eslint:
-    enabled: true
-    config_file: .eslintrc.json
+eslint:
+  enabled: true
+  config_file: .eslintrc.json
+
+rubocop:
+  enabled: true
+  config_file: .rubocop.yml
+
+scss-lint:
+  enabled: true
+  config_file: .scss-lint.yml
+
+swiftlint:
+  enabled: true
+  config_file: .swiftlint.yml
+
+haml-lint:
+  enabled: true
+  config_file: .haml-lint.yml
+
+python:
+  enabled: true
+  config_file: .python-lint.yml
+
+markdownlint:
+  enabled: true
+  config_file: .markdown-lint.yml
+
+phpcs:
+  enabled: true
+  config_file: .phpcs.xml
+
+bash:
+  enabled: true
+  config_file: .bash-lint.yml
+
+elixir:
+  enabled: true
+  config_file: .elixir-lint.yml
+
+go:
+  enabled: true
+  config_file: .go-lint.yml
+
+# Add more linters for other languages as needed
