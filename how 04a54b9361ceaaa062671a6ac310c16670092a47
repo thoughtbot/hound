@@ -1,0 +1,469 @@
+[33mcommit 2673f998705e2d288375a8771d5c83bb740f9d66[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32momprakash[m[33m, [m[1;31morigin/omprakash[m[33m)[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Sat Mar 30 18:58:11 2024 +0530
+
+    Add palindrome checker code
+
+[33mcommit d68baf09e3e92ac9b1d02d4f755237f540041396[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Sat Mar 30 10:56:25 2024 +0530
+
+    Add factorial calculator
+
+[33mcommit b4d1bd7b48592045ed12fa645897f2cac55fe17e[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Fri Mar 29 22:21:34 2024 +0530
+
+    Add Ruby code snippet to trigger Hound suggestions
+
+[33mcommit 72c48a458f5fd09d916dcb7dd04dbe0a4a254432[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Fri Mar 29 21:43:09 2024 +0530
+
+    Add review_code.py for review
+
+[33mcommit b489abcab4f8f087facc8e893e219a96551bd985[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Fri Mar 29 20:53:12 2024 +0530
+
+    Update .hound.yml and add calculator functionality
+
+[33mcommit be6dcb88fabcdafb2e88d7865f43f1d7ea5e847e[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Fri Mar 29 20:42:11 2024 +0530
+
+    Add .eslintrc.json file
+
+[33mcommit fcfc617416fae4d21c301f3c5c98941e204ba484[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Fri Mar 29 19:57:11 2024 +0530
+
+    Add factorial calculator code
+
+[33mcommit 04a54b9361ceaaa062671a6ac310c16670092a47[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Fri Mar 29 19:44:31 2024 +0530
+
+    Commit message here
+
+[33mcommit 821d820e95ffd8c643b613f9d306622b50bd2d37[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Thu Mar 28 11:23:42 2024 +0530
+
+    Fix code style issues for Hound
+
+[33mcommit 87b85f5d1a9864f58324fa4b5cfa337dc68740a1[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Thu Mar 28 11:16:45 2024 +0530
+
+    Add test file for permission check
+
+[33mcommit d67bc936246f9ea0a0fe365767ddd9fcaad27c6a[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Thu Mar 28 11:09:42 2024 +0530
+
+    Add Python code for prime number checking
+
+[33mcommit fe24cb0c108a0a1692ae76120710d89a30387618[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Thu Mar 28 10:38:52 2024 +0530
+
+    Your commit message here
+
+[33mcommit 0f1d9736efe7cbb7eee104d9f19e64ebd5f044c6[m[33m ([m[1;32mmain[m[33m)[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Tue Mar 26 18:57:42 2024 +0530
+
+    Add Hound configuration file
+
+[33mcommit 1856341e7714c2f5729c262ea07dc23e95da209a[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Tue Mar 26 16:45:30 2024 +0530
+
+    Add factorial.py file for Hound review
+
+[33mcommit 74e5de4d4281befb0951cc5d1e5f70d415107128[m[33m ([m[1;32mmaster[m[33m)[m
+Author: gujjiomprakash@gmail.com <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Mon Mar 25 15:53:36 2024 +0530
+
+    Add code to check if a number is prime
+
+[33mcommit 2a3b892a7224a56cc595321a80a9bfa6fb5609bf[m
+Author: OmprakashGujji <162006519+OmprakashGujji@users.noreply.github.com>
+Date:   Tue Mar 19 10:56:59 2024 +0530
+
+    Add .hound.yml configuration for Hound CI
+
+[33mcommit a50bf519bcdd42817ebb35bb19c268893e7a9909[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Greg Lazarev <greg.lazarev@gmail.com>
+Date:   Mon Jun 26 14:35:12 2023 -0400
+
+    Enable Redis TLS in Sidekiq (#1871)
+    
+    Heroku will be upgrading our Redis to 7.0, which also means we need to switch to SSL connection.
+
+[33mcommit 41b5e88bb801c03eb81aab62ad7eebbdea9fafc2[m
+Author: Greg Lazarev <greg.lazarev@gmail.com>
+Date:   Mon May 29 22:51:36 2023 -0400
+
+    Fix the bundler issue of deploying to Heroku (#1870)
+    
+    For more recent `bundler` versions, we need to apply a fix for Heroku deploys.
+
+[33mcommit 5269fa5de04dcdcff206cc89ed0f523ed47cb217[m
+Author: Greg <greg.lazarev@gmail.com>
+Date:   Sun Oct 31 17:04:51 2021 -0700
+
+    Limit the length of Stripe metadata field
+    
+    Stripe imposes a `500` character limit on this field
+
+[33mcommit 60c06b148607a017578b6468e1930b522a9037cc[m
+Author: Greg Lazarev <greg.lazarev@gmail.com>
+Date:   Mon Aug 9 21:23:00 2021 -0700
+
+    Use the correct org Stripe user when subscribing (#1855)
+
+[33mcommit 82efdf3d9cecb9fa3d54802a3e88af499546d91f[m
+Author: Greg Lazarev <greg.lazarev@gmail.com>
+Date:   Mon Aug 9 13:14:57 2021 -0700
+
+    Look for existing paying Stripe user first (#1854)
+    
+    This fixes the logic where a user that activates a repo already has a
+    Stripe account, but it's not set-up for being charged (older users).
+    We now will try to find an existing paying user within the same org,
+    before checking if the current user has a Stripe account.
+
+[33mcommit 93a84c3f678865265a1f0b2220d32c0c59bd91fe[m
+Author: Alexander Kadyrov <gruz0.mail@gmail.com>
+Date:   Mon Aug 9 22:49:59 2021 +0300
+
+    Fix broken link to thoughtbot/guides (#1853)
+
+[33mcommit 5805c6502976c10f5529e7f7aeb0af0c370c0354[m
+Author: Greg Lazarev <greg.lazarev@gmail.com>
+Date:   Tue Aug 3 15:54:22 2021 -0700
+
+    Activate repo with existing stripe customer (#1852)
+    
+    If an org (that a given repo belongs to) already has paid/subscribed
+    repos, we will now use that Stripe account to allow enabling another
+    paid repo under that Strip account. This should prevent users from same
+    GitHub orgs needing to create new Stripe accounts to enable more repos.
+
+[33mcommit c66568b931afe328b8605e5ac48f7b8898cd8289[m
+Author: Greg Lazarev <greg.lazarev@gmail.com>
+Date:   Fri Jul 16 22:37:39 2021 -0700
+
+    Update Puma and Rails (v6.0.4) for security (#1850)
+    
+    `bundler:audit` flagged some vulnerabilities, this resolves them
+    
+    Update also `administrate` and `addressable` to make everything happy.
+
+[33mcommit 46199571515ad32e3c5aa6318cef1cfbe090978a[m
+Author: Greg Lazarev <greg.lazarev@gmail.com>
+Date:   Wed Jun 2 15:39:34 2021 -0700
+
+    Add yearly plan reference (#1834)
+    
+    To enable yearly plans
+
+[33mcommit 617120ba1c528d34cc3e268f0b1c662ac2b19e23[m
+Author: Greg Lazarev <greg.lazarev@gmail.com>
+Date:   Mon May 31 10:00:31 2021 -0700
+
+    Allow any user to upgrade whitelisted repos (#1843)
+    
+    If a user has access to the repo and the owner of what repo has been
+    granted a whitelist/bulk permission, then it should be activatable.
+
+[33mcommit fe43c074728438cae520d4f14d36926206200d2e[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Wed Mar 10 13:35:10 2021 -0800
+
+    Configuration for suggestions (#1835)
+
+[33mcommit 7eedd15b6ad4d3763911bdd1272ee50d24b2bc30[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Sun Feb 14 11:12:06 2021 -0800
+
+    Update billing Rake task
+
+[33mcommit d64d29b2038a64fa122ec0695e99cd3af78062c8[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Sun Feb 14 11:00:47 2021 -0800
+
+    Update billing Rake task
+
+[33mcommit d36ce7920dfaa86ee56ae82a212393f9770ebcfb[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Sun Feb 14 10:52:15 2021 -0800
+
+    Update billing Rake task
+
+[33mcommit 413afcde3b7a3ae961be174a7aa0edd2f1353d85[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Sun Feb 14 10:38:28 2021 -0800
+
+    Update billing Rake task
+
+[33mcommit 3fb9b5de6a345e9e46db2aa54d9758ab77714ffe[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Sun Feb 14 10:24:05 2021 -0800
+
+    Update billing Rake task
+
+[33mcommit dbd67c2b6b1811040f1ac5a3ddea92b13682d033[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Thu Jan 28 20:14:30 2021 -0800
+
+    Use new review based pricing everywhere (#1830)
+    
+    * Add new pricing tiers to landing page
+    * Don't check if owner is whitelisted when activating Hound
+    * Don't show old private repo allowance when upgrading
+    * Create new Stripe subscription using the new pricing plans
+    * Don't use whitelisting to determine repo price
+
+[33mcommit 962372205c0f6badf8a1288944d9f55b21a1a49a[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Sat Aug 15 11:20:33 2020 -0400
+
+    Rejigger home page markup and styles
+    
+    - Organize styles using ITCSS (inverted triangle CSS) and use
+      class namespaces (i.e. `c-` for components, `o-` for objects)
+    - Detach styles from being named after the ‘home’ page - making them
+      more reusable and descriptive of their purpose
+    - Leverage CSS Custom Properties for better color management and
+      component variants
+        - This also opens the door for spinning-up themed landing pages,
+          where the design can be unique to linter, for example
+    - New styles do not need the Bourbon and Neat Sass libraries, so we
+      could potentially drop these dependencies
+    - Add and use the active_link_to gem which improves the accessibility of
+      navigation links by outputting the `aria-current` attribute on the
+      current page link
+    - Use Rails Internationalization
+    - Use WebP images (progressively-enhanced)
+    - Improve accessibility with better heading hierarchy, added image alt
+      text, and labeling page landmarks
+    - Improve the Pricing section design
+
+[33mcommit db108ba789701b100cc23f351d85ef244f1d3a14[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Sat Dec 12 12:54:58 2020 -0600
+
+    Update rails from 6.0.3.2 to 6.0.3.4
+    
+    This resolves two security vulnerabilities currently failing CircleCI
+    builds (via ruby-advisory-db).
+
+[33mcommit f6b85c08018341e1ff8eb221a70e1ef2395b9a3d[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Mon Oct 19 21:59:55 2020 -0700
+
+    Add whitelisted and marketplace info to billing rake task
+
+[33mcommit 0aa51d6140007369d72e77e122431df5342ede2e[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Wed Aug 12 10:11:41 2020 -0400
+
+    Remove unused CSS
+
+[33mcommit 28f3c9710635d4176b7633ac896688bb7d2e1991[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Fri Aug 14 10:39:41 2020 -0700
+
+    Remove limit from billing report query
+
+[33mcommit 41e11e330b11f93fb4c42099dcfb5346f95fff4e[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Fri Aug 14 10:33:30 2020 -0700
+
+    Billing report rake task
+
+[33mcommit 81387d9894ec3280c0e114e8e04f8eaebd90b338[m
+Author: Scott Albertson <ascottalbertson@gmail.com>
+Date:   Tue Aug 11 20:02:54 2020 -0700
+
+    Help docs aren't encrypted
+
+[33mcommit 1288c9b1af017a249d3ae8835424016f01af7171[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Tue Aug 11 15:26:20 2020 -0400
+
+    Fix HTML validation errors
+
+[33mcommit 59bb21294a8f9599f142f5ce2c9e924a55ce14b6[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Tue Aug 11 13:27:06 2020 -0400
+
+    Remove Split
+
+[33mcommit 95b605d54b62d7b4f16adb33d4b793c82c2cb20c[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Mon Aug 10 13:54:14 2020 -0400
+
+    Remove home page A/B test
+
+[33mcommit a2b09b708f2383377abce2c05e9011609978e9dc[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Fri Jul 24 16:30:15 2020 -0400
+
+    Swap Haml for ERB
+
+[33mcommit dd16c46afc8cf65df47488837b48dfd2c968e5fc[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Tue Aug 11 12:25:36 2020 -0400
+
+    Fix missing margin (#1814)
+    
+    By default, all `p` elements have some bottom margin, but on the
+    home page, we were overriding that with `margin: 0;` - that was done
+    using a overly specific selector and by using the `margin` shorthand, so
+    our `margin-top-large` utility class was not working.
+    
+    https://github.com/houndci/hound/blob/5cdb8ec492d77aa2cf4f566e3f6b17f2f389ab54/app/assets/stylesheets/pages/home/_home-objects.scss#L15-L17
+    
+    Part of this problem is what is called an ‘accidental reset’:
+    https://css-tricks.com/accidental-css-resets/
+
+[33mcommit 5cdb8ec492d77aa2cf4f566e3f6b17f2f389ab54[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Wed Jul 29 12:18:38 2020 -0400
+
+    Pull avatars from GitHub instead of Gravatar
+    
+    `https://github.com/<username>.png` will return a user or organization’s
+    avatar. It’s been written about on the GitHub Blog:
+    https://github.blog/2020-04-16-github-protips-tips-tricks-hacks-and-secrets-from-jason-etcovitch/#get-a-user-or-organizations-avatar
+    
+    The `preconnect` is added to establish a connection to github.com
+    early, increasing perceived image loading performance.
+
+[33mcommit 7188eccb91ccab99b125007aba2ead610a5ea87e[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Fri Jul 24 14:10:41 2020 -0400
+
+    Add link to Supported Linter documentation
+
+[33mcommit b03d7d0758a5a21882ff0f13b9283afe0d1d9d73[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Fri Jul 24 14:10:24 2020 -0400
+
+    Add Shell to list of languages
+
+[33mcommit c23cdd050ecbb8faf6e7ef5a9db9c0174ae6f12f[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Fri Jul 24 14:10:07 2020 -0400
+
+    Refactor language list implementation
+
+[33mcommit d02a09ea6a84be48cb407cb7af55ad0e66109b67[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Fri Jul 24 12:46:17 2020 -0400
+
+    Isolate company styles away from langauge styles
+
+[33mcommit 24cb9191d467463572fb8a20c3b74f4ca08a443c[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Fri Jul 24 16:03:50 2020 -0400
+
+    Use inline_svg gem
+
+[33mcommit 75e52a73318abb5ced67bf110858c586925737e4[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Mon Jul 27 17:09:39 2020 -0400
+
+    Gem updates (#1805)
+    
+    * Update rack from 2.2.2 to 2.2.3
+    
+    Resolves security advisory CVE-2020-8184
+    
+    * Update rails from 6.0.3.1 to 6.0.3.2
+    
+    Resolves security advisory CVE-2020-8185
+
+[33mcommit e4fbedcf70596542271ecf37a89d765a2b2657dd[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Fri May 29 09:46:15 2020 -0400
+
+    Replace Neat `media` mixin with vanilla CSS
+    
+    Neat is no longer maintained. This commit starts to remove Neat by
+    replacing almost all instances of its `media` mixin with vanilla CSS
+    syntax - there really is no need for a mixin here.
+
+[33mcommit 854ee4a6641a6ae5582f54b119c4012db39a1ca8[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Thu May 28 17:16:42 2020 -0400
+
+    Replace normalize-rails with npm package
+    
+    The normalize-rails gem hasn’t been updated since 2016 and the
+    maintainer has ghosted.
+    
+    The npm package is maintained by the person behind normalize.css, so it
+    see updates when necessary.
+    
+    https://rubygems.org/gems/normalize-rails/
+
+[33mcommit 0beed135b1102753511e2a9bd924383e91f623c7[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Mon Jun 8 08:52:44 2020 -0400
+
+    Update websocket-extensions to v0.1.5
+    
+    This resolves CVE-2020-7663
+
+[33mcommit 9be9468df155d3d7e71f8b387079fa57ebbac939[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Mon Jun 8 08:51:50 2020 -0400
+
+    Update kaminari to v1.2.1
+    
+    This resolves CVE-2020-11082
+
+[33mcommit e431f0d35fd924d99c5227257efb18dbf525cb10[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Fri May 29 08:56:53 2020 -0400
+
+    Replace scss-lint for stylelint
+    
+    scss-lint is no longer being actively worked on and stylelint is a more full-featured utility.
+    
+    See: https://github.com/sds/scss-lint
+
+[33mcommit 509c10bf27f7dc6209d215e27e11169d384bdb91[m
+Author: Tyson Gach <tyson@tysongach.com>
+Date:   Sun Jun 7 19:36:43 2020 -0400
+
+    Update rails and puma (#1796)
+    
+    * Update rails from 6.0.3 to 6.0.3.1
+    
+    This fixes security vulnerabilities, which are breaking the build.
+    
+    * Update puma from 4.3.3 to 4.3.5
+    
+    This fixes security vulnerabilities, which are breaking the build.
+
+[33mcommit 551b3958b31628d8555dd24c2775e1ff62a1fe6d[m
+Author: Greg Lazarev <greg.lazarev@gmail.com>
+Date:   Mon May 11 23:20:23 2020 -0700
+
+    Update Ruby to 2.7.1 and gems to make it work (#1776)
+
+[33mcommit 761f46026fd8826fd2cef23c763085395509f39b[m
+Author: Greg <greg.lazarev@gmail.com>
+Date:   Fri May 8 08:57:39 2020 -0700
+
+    Improve detection of first repo for user
+    
+    Look for first user's subscription first, then look for any active repo.
+    Sometimes a user may still have a subscription, but it doesn't show up
+    in the list of user's repos.
