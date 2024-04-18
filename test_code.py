@@ -1,0 +1,28 @@
+# Fibonacci sequence generator
+def fibonacci(n):
+    fib_sequence = [0, 1]
+    while len(fib_sequence) < n:
+        fib_sequence.append(fib_sequence[-1] + fib_sequence[-2])
+    return fib_sequence[:n]
+
+# Factorial function
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+# Main function to test Fibonacci and factorial
+def main():
+    n = 10  # Adjust the value of n as needed
+    print(f"Fibonacci sequence of {n} numbers:")
+    fib_result = fibonacci(n)
+    print(fib_result)
+
+    print(f"
+Factorial of {n}:")
+    fact_result = factorial(n)
+    print(fact_result)
+
+if __name__ == "__main__":
+    main()

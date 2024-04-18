@@ -1,0 +1,72 @@
+#0 building with "default" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 1.17kB 0.0s done
+#1 DONE 0.1s
+
+#2 [internal] load metadata for docker.io/library/node:20
+#2 ...
+
+#3 [auth] library/node:pull token for registry-1.docker.io
+#3 DONE 0.0s
+
+#2 [internal] load metadata for docker.io/library/node:20
+#2 DONE 2.8s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 2B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 ...
+
+#6 [ 1/11] FROM docker.io/library/node:20@sha256:33b83da61c17cc30607fe3d9d33ea633d9cda0a4421d0dce18bda48963da71c3
+#6 resolve docker.io/library/node:20@sha256:33b83da61c17cc30607fe3d9d33ea633d9cda0a4421d0dce18bda48963da71c3 0.0s done
+#6 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 2.13MB 5.1s
+#5 transferring context: 3.81MB 8.4s done
+#5 DONE 8.8s
+
+#7 [ 4/11] RUN apt-get install -y rbenv &&     rbenv install 3.1.2 &&     rbenv global 3.1.2
+#7 CACHED
+
+#8 [ 5/11] WORKDIR /app
+#8 CACHED
+
+#9 [ 8/11] RUN bundle install
+#9 CACHED
+
+#10 [ 3/11] RUN gem install bundler:2.5.6
+#10 CACHED
+
+#11 [ 6/11] COPY package.json yarn.lock Gemfile Gemfile.lock ./
+#11 CACHED
+
+#12 [ 7/11] RUN npm install --frozen-lockfile --legacy-peer-deps &&     yarn cache clean
+#12 CACHED
+
+#13 [ 9/11] RUN gem install hound -v '0.3.0'
+#13 CACHED
+
+#14 [ 2/11] RUN apt-get update &&     apt-get install -y ruby-full build-essential &&     gem install bundler
+#14 CACHED
+
+#15 [10/11] COPY .hound.yml ./
+#15 CACHED
+
+#16 [11/11] COPY . .
+#16 DONE 36.3s
+
+#17 exporting to image
+#17 exporting layers
+#17 exporting layers 3.6s done
+#17 writing image sha256:a169e35bbf95a3f9c9a2f2d83f8b75c98360e07e4a3debaa7dabdb2917112d96 done
+#17 naming to docker.io/library/houndci-image 0.0s done
+#17 DONE 3.6s
+
+View build details: docker-desktop://dashboard/build/default/default/senbnzm2q2gqbr1b8zzh6mwuc
+
+What's Next?
+  View a summary of image vulnerabilities and recommendations → docker scout quickview
